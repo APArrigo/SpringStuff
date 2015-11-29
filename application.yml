@@ -1,0 +1,17 @@
+server:
+  port: 8888
+  
+configuration:
+  projectName: Anthony's YML Cloud Configured Project
+
+anotherConfig:
+    myEmail: APArrigo@gmail.com
+    
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AnthonyArrigo/SpringStuff  
+          
+log-tomcat-version: true
